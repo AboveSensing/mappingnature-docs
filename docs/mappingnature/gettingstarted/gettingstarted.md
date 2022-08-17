@@ -6,5 +6,5 @@ tools available in Mapping Nature. Through the tutorial in the next page, you wi
 accessing existing data processed by the Above Sensing Team, as well as creating your own processing. We will also explore the 
 Plant Health tool currently available for testing.
 
-<a><button name="button" class = "md-button md-button--primary" onclick="window.location.href = '../tutorial1.md';" >Get Mapping</button></a>
+<a><button name="button" class = "md-button md-button--primary" onclick="window.location.href = 'https://docs.mappingnature.ca/mappingnature/gettingstarted/tutorial1/';" >Get Mapping</button></a>
 
