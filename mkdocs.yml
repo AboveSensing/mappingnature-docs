@@ -1,0 +1,72 @@
+site_name: Above Docs
+site_url: https://docs.mappingnature.ca
+site_description: This is the documentation page for Above Sensing's platforms Mapping Nature and Above Storage.
+site_author: Above Sensing Team
+
+repo_url: https://github.com/AboveSensing/mappingnature-docs.git
+
+theme:
+    name: material
+    locale: en
+    logo: assets/logo.png
+    features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      -
+    palette:
+
+        # Palette toggle for light mode
+      - scheme: default
+        primary: green
+        accent: teal
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+
+        # Palette toggle for dark mode
+      - scheme: slate
+        primary: green
+        accent: teal
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+nav:
+    - Home: index.md
+    - Mapping Nature (Image Analysis):
+      - Overview: mappingnature/mappingnature.md
+      - Getting Started:
+        - Introduction: mappingnature/gettingstarted/gettingstarted.md
+        - Tutorial 1: mappingnature/gettingstarted/tutorial1.md
+
+    - Above Storage (Image Storage):
+        - Overview: abovestorage/abovestorage.md
+        - Getting Started:
+            - Introduction: abovestorage/gettingstarted.md
+            - Tutorial 1: abovestorage/tutorial1.md
+
+    - About Above Sensing: above_sensing.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+markdown_extensions:
+  - attr_list
+
+
+plugins:
+    - search
