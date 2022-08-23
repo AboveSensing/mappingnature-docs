@@ -15,7 +15,7 @@ An Above Sensing Team member will provide you with log in info for accessing dat
   <figcaption>Login page for Mapping Nature</figcaption>
 </figure>
 
-### Step 2: Viewing the processed dta your project
+### Step 2: Viewing the processed data your project (Need Screen Recording)
 The short video below illustrates how easy it is for Above Sensing's clients to access and view processed data. The video
 provides a quick overview of the various tools available in the map view, including seeing image positions, exporting results,
 changing the basemap, and taking measurements. Other tools such as contour creation and addition of geospatial files, such as geojson or shapefiles, 
@@ -24,7 +24,7 @@ will be covered in Section 2.
 
 
 
-### Step 3: Viewing multispectral indeces
+### Step 3: Viewing multispectral indeces (Need Screen Recording)
 This section is meant for Above Sensing clients interested in plant health of the areas mapped. Mapping Nature provides 
 a variety of plant health focused indexes which can provide an insight into plant health. This feature is experimental and 
 dependant on various variables such as camera used, camera calibration, sun exposure, and others. The results from these 
@@ -32,9 +32,21 @@ images should be interpreted with caution, and a review by an expert in remote s
 quickly demonstrates how to use the plant health view in the map.
 
 ## Section 2
+This section of the tutorial deals with more technical aspects of photogrammetry and Geographic Information Systems. This 
+section of the tutorial is meant for clients of Above Sensing that are collecting their own imagery, would like to develop
+their own data analysis pipeline. 
 
-### Step1: Creating a new project
+### Step 1: Creating a new project, uploading images, and selecting the settings
 
-### Step 2: Uploading Images and Processing settings
+Once ready to get started and logged in, you will need to create a new project. Name the project something meaningful, 
+and click on "Import files and GCP's" button on the right of the project to import your images for reconstruction.
+
+**Depending on the application, various different settings, flight parameters, image overlap, and payload type will determine
+the quality of the results.** 
+
+We recommend you review the Terms section for a more detailed description of the various settings available.
 
 ### Step 3: Have a coffee, or two, depending on the number of images
+Drone image processing can be an arduous task for computers. Depending on the number of images being processed, the proccesing
+time can take anywhere between an hour to 30 hours (the most data the AS team has processed)
+
